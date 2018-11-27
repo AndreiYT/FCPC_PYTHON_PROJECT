@@ -1,0 +1,23 @@
+mga_bobo = ["gadon", "mar.Roxas", "Jigs"]
+mga_tao = ["Ako","Ikaw","tayong lahat"]
+mga_bldg = ["PH", "RH", "MAH"]
+ for x in range(len(mga_bobo)):
+    print(mga_bobo[x])
+ for y in range(len(mga_tao)):
+    print(mga_tao[y])
+ for z in range(len(mga_bldg)):
+    print(mga_bldg[z])
+ print()
+ mga_bobo = ["gadon", "mar.Roxas", "Jigs"]
+mga_tao = ["Ako","Ikaw","tayong lahat"]
+mga_bldg = ["PH", "RH", "MAH"]
+ for x in range(len(mga_bobo)):
+    print(mga_bobo[x])
+ for y in range(len(mga_tao)):
+    print(mga_tao[y])
+ for z in range(len(mga_bldg)):
+    print(mga_bldg[z])
+ print(len(mga_bobo))
+print(len(mga_tao))
+print(len(mga_bldg))
+ print()
