@@ -1,0 +1,20 @@
+#MoneyExchange
+while True:
+
+    USD_Currency = 52.90
+    TB_Currency = 1.61
+    SLR_Currency = 0.29
+
+    print("0. USD")
+    print("1. TB")
+    print("2. SLR")
+    select=input("select: ")
+
+    if select=="0":
+        print(USD_Currency)
+    elif select == "1":
+        print(TB_Currency)
+    elif select == "2":
+        print(SLR_Currency)
+    else:
+        print("invalid choice")
