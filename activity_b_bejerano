@@ -1,0 +1,19 @@
+list1 = [1, 2, 3, 4, 5]
+list2 = [23.4, 12.52, 31.37, 51.4, 6.52]
+list3 = ["Andrei", "Jigs", "Steffen", "Bravo"]
+list4 = ['A', 'B', 'C', 'D']
+
+for a in list1:
+    print(a, end='\t')
+
+print()
+for b in list2:
+    print(b, end='\t')
+ 
+print()   
+for c in list3:
+    print(c, end='\t')
+
+print()    
+for d in list4:
+    print(d, end='\t'
