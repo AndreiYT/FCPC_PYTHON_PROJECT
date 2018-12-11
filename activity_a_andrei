@@ -1,0 +1,24 @@
+# Varibles
+andrei = 100
+nathan = 100
+steffen = 100
+print("andrei")
+print("nathan")
+print("steffen")
+
+# Operators
+value1 = 70
+value2 = 30
+print(value1 - value2)
+
+# conditionals
+if (steffen <= 70):
+    print("bagsak")
+elif (steffen > 30):
+    print("well")
+else:
+    print("w0w")
+
+#loops
+for x in range(1, 2, 1):
+    print("x")
