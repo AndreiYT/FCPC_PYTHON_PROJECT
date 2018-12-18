@@ -1,0 +1,56 @@
+MCdo_products= ["sundae","mcfries","mcsphagetti","mcfloat"]
+Mcprice = [32,89,75,32]
+
+for x in range (4):
+    print((x+1),MCdo_products[x],"-",Mcprice[x])
+print()
+select = input("Select: ")
+
+if select == "1":
+    quantity = int(input("Quantity: "))
+    total = Mcprice[0] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("insufficient balance")
+elif select == "2":
+    quantity = int(input("Quantity: "))
+    total = Mcprice * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("insufficient balance")
+elif select == "3":
+    quantity = int(input("Quantity: "))
+    total = Mcprice[2] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("insufficient balance")
+elif select == "4":
+    quantity = int(input("Quantity: "))
+    total = Mcprice[3] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("insufficient balance")
+elif select == "5":
+    quantity = int(input("Quantity: "))
+    total = product_price[4] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("insufficient balance")
+else:
+    print("Invalid choice")
+
