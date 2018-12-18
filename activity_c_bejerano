@@ -16,4 +16,4 @@ for c in list3:
 
 print()    
 for d in list4:
-    print(d, end='\t'
+    print(d, end='\t')
