@@ -1,0 +1,26 @@
+def toRomanNum(x): 
+    if x<=20:
+        if x==20:
+            print("XX,end='') 
+        elif x<=20 and x>10: 
+            print("X",end='') 
+            y=x-10
+            toRomanNum(y)
+        elif x==10:
+            print("X",end='')
+        elif x==9: 
+            print("IX",end='')
+        elif x<9 and x>5:
+            print("V",end='') 
+            a=x-5 
+            toRomanNum(a)
+        elif x==4:
+            print("IV",end='')
+        elif x<5 and x>0: 
+            print("I",end='') 
+            b=x-1
+            toRomanNum(b)
+        else:
+            print()
+            
+toRomanNum()
