@@ -1,13 +1,62 @@
-# FCPC_PYTHON_PROJECT
-list1 = ["Andrei"]
-list2 = ['1', '2', '3', '4', '5', '6']
+# final 10 points
+print('Final 10 points')
+name = 'markandrei'
+equivalent = ''
 
+for x in range(len(name)):
+    letter = name[x]
 
-for a in list1:
-    print(a, end='\t')
+    if letter == 'a':
+        equivalent+='1->'
+    elif letter == 'b':
+        equivalent+='2->'
+    elif letter == 'c':
+        equivalent+='3->'
+    elif letter == 'd':
+        equivalent+='4->'
+    elif letter == 'e':
+        equivalent+='5->'
+    elif letter == 'f':
+        equivalent+='6->'
+    elif letter == 'g':
+        equivalent+='7->'
+    elif letter == 'h':
+        equivalent+='8->'
+    elif letter == 'i':
+        equivalent+='9->'
+    elif letter == 'j':
+        equivalent+='10->'
+    elif letter == 'k':
+        equivalent+='11->'
+    elif letter == 'l':
+        equivalent+='12->'
+    elif letter == 'm':
+        equivalent+='13->'
+    elif letter == 'n':
+        equivalent+='14->'
+    elif letter == 'o':
+        equivalent+='15->'
+    elif letter == 'p':
+        equivalent+='16->'
+    elif letter == 'q':
+        equivalent+='17->'
+    elif letter == 'r':
+        equivalent+='18->'
+    elif letter == 's':
+        equivalent+='19->'
+    elif letter == 't':
+        equivalent+='20->'
+    elif letter == 'u':
+        equivalent+='21->'
+    elif letter == 'v':
+        equivalent+='22->'
+    elif letter == 'w':
+        equivalent+='23->'
+    elif letter == 'x':
+        equivalent+='24->'
+    elif letter == 'y':
+        equivalent+='25->'
+    elif letter == 'z':
+        equivalent+='26->'
 
-print()
-for b in list2:
-    print(b, end='')
-print()
-
+print(equivalent)
