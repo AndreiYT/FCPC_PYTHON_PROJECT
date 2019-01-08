@@ -1,0 +1,55 @@
+# FCPC_PYTHON_PROJECT
+1
+sum3 = ([1,2,3])
+total = sum3[0]+sum3[1]+sum3[2]
+print(total)
+sum3 = ([5,11,2])
+total = sum3[0]+sum3[1]+sum3[2]
+print(total)
+sum3 = ([7,0,0])
+total = sum3[0]+sum3[1]+sum3[2]
+print(total, end = '\n')
+
+2
+def not_string(notstring):
+    if notstring[0:3] in 'not':
+        print('not candy')
+    else:
+        print('not', notstring)
+
+not_string('candy')
+not_string('x')
+not_string('not bad')
+print()
+
+3
+sorta_sum = (3,4)
+sum_int = sorta_sum[0] + sorta_sum[1]
+print(sum_int)
+sorta_sum = (9,4)
+sum_int = sorta_sum[0] + sorta_sum[1]
+if sum_int > 10-19:
+    print("20")
+else:
+    print(sum_int)
+sorta_sum = (10,11)
+sum_int = sorta_sum[0] + sorta_sum[1]
+print(sum_int)
+
+4
+print("number 4")
+def caught_speeding(speed, bool):
+    no_ticket = 0
+    small_ticket = 1
+    big_ticket = 2
+
+    if speed <= 60:
+        print(no_ticket)
+    elif speed >= 61 and speed <= 80:
+        print(small_ticket)
+    elif speed >= 81:
+        print(big_ticket)
+
+caught_speeding(60,False)
+caught_speeding(65,False)
+caught_speeding(65-5,True)
