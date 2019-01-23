@@ -1,0 +1,10 @@
+def my_function(listX):
+    return listX[2:5]
+
+my_int = [1,2,3,4,5,6,7,8,9]
+my_float = [1.2, 23.4, 5.5, 7.34, 10.6, 9.11, 47.2, 0.112, 85.123]
+my_string = ['andrei', 'stephen', 'jigs', 'janjan', 'balbin', 'clerigo', 'kurt', 'niel', 'louis']
+
+print(my_function(my_int))
+print(my_function(my_float))
+print(my_function(my_string))
