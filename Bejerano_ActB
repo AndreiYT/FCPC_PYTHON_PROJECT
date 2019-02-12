@@ -1,0 +1,27 @@
+#List Dictionary Manipulation
+print("ACTIVITY B")
+contacts = {}
+
+while True:
+    print('1. Add number')
+    print('2. Search number')
+    print('3. Print contacts')
+
+    user_choice = input('Select: ')
+
+    if user_choice == '1':
+        name = input('\nEnter name: ')
+        number = input('Enter number: ')
+        print()
+
+        contacts[name] = number
+    elif user_choice == '2':
+        search = input('\nSearch: ')
+        print('{} - {}'.format(search, contacts[search]))
+        print()
+    elif user_choice == '3':
+        print()
+        print(contacts)
+        print()
+    else:
+        print('\nInvalid choice')
