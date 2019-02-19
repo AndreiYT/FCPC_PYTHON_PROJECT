@@ -1,0 +1,9 @@
+hour = int(input("Enter hour: "))
+minute = int(input("Enter minute: "))
+hours_elapsed = int(input("Enter hours elapsed: "))
+minute_elapsed = int(input("Enter minute elapsed: "))
+
+current_hour = (4 * (hour - hours_elapsed)) % 24
+current_minute = 12 % (minute + minute_elapsed)
+
+print("Current time: ", current_hour, ":", current_minute)
